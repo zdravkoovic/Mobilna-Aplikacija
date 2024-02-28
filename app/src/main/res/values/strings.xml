@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">MOSIS_new</string>
+    <string name="register_welcome">Welcome back</string>
+    <string name="register_login">Log In</string>
+    <string name="login_text">Don\'t have an account?</string>
+    <string name="login_signUp">Sign Up</string>
+    <string name="login_signIn">Sign In</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_hello">Hello</string>
+    <string name="register_sign_up">Sign Up</string>
+    <string name="register_text">Already have an account?</string>
+    <string name="register_signIn">Sign In</string>
+    <string name="nav_header_desc">Picture</string>
+    <string name="nav_header_title">Naziv1</string>
+    <string name="nav_header_subtitle">Naziv2</string>
+    <string name="menu_home">home</string>
+    <string name="menu_gallery">gallery</string>
+    <string name="menu_slideshow">slideshow</string>
+    <string name="slidebar_signOut">Sign out</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="register_repeatPassword">Repeat password</string>
+    <string name="register_password">Password</string>
+    <string name="register_email">Email</string>
+    <string name="register_firstName">First name</string>
+    <string name="register_lastName">Last name</string>
+    <string name="register_phone">Phone</string>
+    <string name="register_title">Map</string>
+    <string name="register_image_desc">Image</string>
+    <string name="addObject_subject">Subject:</string>
+    <string name="addObject_desc">Description:</string>
+    <string name="empty" />
+    <string name="addObject_save">Save</string>
+    <string name="mapFragment_label">Map</string>
+    <string name="addObject_label">Add object</string>
+    <string name="slidebar_rangs">Rang list</string>
+    <string name="rangs_label">Rang list</string>
+    <string name="filters">Filters</string>
+    <string name="filter_autor">\@dzoni</string>
+    <string name="filter_button_text">Set</string>
+    <string name="filter_atribut">\@klisura</string>
+    <string name="filter_label">Filter</string>
+    <string name="filter_radius">km</string>
+</resources>

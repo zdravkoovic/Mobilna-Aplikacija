@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/screen"
+    android:padding="50sp"
+    android:orientation="vertical"
+    tools:context=".AddObjectFragment">
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/addObject_picture"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            app:srcCompat="@drawable/ic_menu_camera_dark"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/layout_bg"
+            android:contentDescription="@string/register_image_desc"/>
+
+        <TextView
+            android:id="@+id/addObject_subject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addObject_subject" />
+
+        <EditText
+            android:id="@+id/addObject_subject_plain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/addObject_desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addObject_desc" />
+
+        <EditText
+            android:id="@+id/addObject_desc_plain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <Button
+            android:id="@+id/addObject_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addObject_save" />
+
+</LinearLayout>

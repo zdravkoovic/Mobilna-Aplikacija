@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "327871657644",
+    "project_id": "database-7388f",
+    "storage_bucket": "database-7388f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327871657644:android:11dd10fb7a024ec48e1109",
+        "android_client_info": {
+          "package_name": "com.example.mosis_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327871657644-9ii0eec1q9v1a3lkgpu1g2lr89gddl07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHOVN63Miuhi_F6r80_UKqZdMbu6OPLlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327871657644-9ii0eec1q9v1a3lkgpu1g2lr89gddl07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.mosis_new.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_LoginFragment_to_RegisterFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_LoginFragment_To_MapFragment"
+            app:popUpTo="@id/mapFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.mosis_new.RegisterFragment"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_RegisterFragment_To_LoginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_RegisterFragment_To_MapFragment"
+            app:popUpTo="@id/mapFragment"
+            app:popUpToInclusive="true"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mapFragment"
+        android:name="com.example.mosis_new.MapFragment"
+        android:label="@string/mapFragment_label"
+        tools:layout="@layout/fragment_map" >
+        <action
+            android:id="@+id/action_MapFragment_To_AddObjectFragment"
+            app:destination="@id/addObjectFragment" />
+        <action
+            android:id="@+id/action_MapFragment_To_RangsFragment"
+            app:destination="@id/rangsFragment" />
+        <action
+            android:id="@+id/action_MapFragment_To_FilterFragment"
+            app:destination="@id/filterFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addObjectFragment"
+        android:name="com.example.mosis_new.AddObjectFragment"
+        android:label="@string/addObject_label"
+        tools:layout="@layout/fragment_add_object" >
+        <action
+            android:id="@+id/action_AddObjectFragment_To_MapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/rangsFragment"
+        android:name="com.example.mosis_new.RangsFragment"
+        android:label="@string/rangs_label"
+        tools:layout="@layout/fragment_rangs" >
+        <action
+            android:id="@+id/action_RangsFragment_To_MapFragment"
+            app:destination="@id/mapFragment"
+            app:popUpTo="@id/mapFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.example.mosis_new.FilterFragment"
+        android:label="@string/filter_label"
+        tools:layout="@layout/fragment_filter" >
+        <action
+            android:id="@+id/action_FilterFragment_To_MapFragment"
+            app:destination="@id/mapFragment" />
+    </fragment>
+</navigation>
