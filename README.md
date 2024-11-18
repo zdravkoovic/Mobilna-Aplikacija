@@ -1,6 +1,6 @@
 # <p align="center"> Android aplikacija </p>
 
-Aplikacija ima za cilj da omogući korisnicima otkrivanje prirodnih lepota. Korisnik, prilikom objavljivanja mesta na kome se nalazi, a koje se očita pomoću GPS koordinata, i koje se registruje kasnije na mapi, mora da kategoriše mesto (reka, klisura, planina...), objavi sliku i doda opis kako bi omogućio ostalim korisnicima više informacija ali i mogućnost pretraživanja po određenim parametrima.
+Aplikacija ima za cilj da omogući korisnicima otkrivanje prirodnih lepota. Korisnik, prilikom objavljivanja mesta na kome se nalazi očitavanjem GPS koordinata, mora da kategoriše mesto (reka, klisura, planina...), objavi sliku i doda opis kako bi omogućio ostalim korisnicima da vide mesto na mapi i pruži više informacija o tom mestu. Postoji mogućnost pretraživanja po određenim parametrima.
 Korisnik može reagovati na objavljene lokacije drugih korinika klikom na ikonicu u obliku srca, koja je postavljena ispod slike, samo ako se nalazi u radiusu ne dalje od 100m. Reakcijom na objavu, korisniku se pridodaju poeni na osnovu kojih se rangira na listu najaktivnijih korisnika.
 
 ### <p align="center"> Registracija </p>
